@@ -9,7 +9,7 @@ function reverse(str){
   return rtnStr;
 }
 
-reverse('you are a nice dude');
+console.log(reverse('you are a nice dude'));
   //"edud ecin a era uoy"
 
 
