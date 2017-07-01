@@ -17,7 +17,19 @@ function isPrime(n){
   return true;
 }
 
-isPrime(137);
+//this one is buggy for some reason.  237 is counted as prime.  WHY?!
+// function isPrime(n){
+
+//   for (var i = 2; i<=n; i++){
+//     if (n % i === 0){
+//       return false;
+//     } else {
+//       return true;
+//     }
+//   }
+// }
+
+console.log(isPrime(137));
 // true
-isPrime(237);
+console.log(isPrime(237));
 // false
