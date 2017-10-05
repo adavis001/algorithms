@@ -13,7 +13,7 @@ function removeDuplicate(arr){
       outArr.push(arr[i]);
       exists[arr[i]] = true;
    }
-      // console.log(exists);
+      console.log(exists);
   }
   console.log(outArr);
   return outArr;

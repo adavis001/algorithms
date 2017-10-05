@@ -16,7 +16,18 @@
 // }
 
 
+// function reverseWords(str){
+//   return str.split(' ').reverse().join(' ');
+// }
+
 function reverseWords(str){
-  return str.split(' ').reverse().join(' ');
+	var reverse = '',
+		justWords = str.split(' ');
+
+	for (var i = justWords.length -1; i>=0; i--){
+		reverse +=justWords[i];
+		reverse +=(' ');
+	}
+	return reverse;
 }
 console.log(reverseWords('Who are you going to call?'));
